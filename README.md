@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0F766E&height=220&section=header&text=Smart%20Energy%20Twin&fontSize=45&fontColor=ffffff&fontAlignY=40&desc=Digital%20Twin%20Smart%20Energy%20Meter&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:059669,50:10B981,100:34D399&height=230&section=header&text=Smart%20Energy%20Twin&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Digital%20Twin%20Smart%20Energy%20Meter&descAlignY=58&descSize=18&animation=twinkling" width="100%"/>
 
 <br>
 
-###  Monitoring Konsumsi Energi pada Warkop Wadim 08
+### Monitoring Konsumsi Energi pada Warkop Wadim 08
 
-<br>
+<div align="center">
 
-**Web-Based · Digital Twin · Smart Energy · Energy Monitoring**
+<img src="https://readme-typing-svg.demolab.com?font=Open+Sans&weight=700&size=16&duration=5000&pause=1000&color=0F766E&center=true&vCenter=true&repeat=false&width=600&height=40&lines=Web-Based+%C2%B7+Digital+Twin+%C2%B7+Smart+Energy+%C2%B7+Energy+Monitoring" alt="Web-Based · Digital Twin · Smart Energy · Energy Monitoring" />
 
 </div>
 
