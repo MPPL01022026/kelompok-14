@@ -178,7 +178,7 @@ Repository
 
 <td align="center">
 
-**Trello**
+**Lark**
 
 <br>
 
@@ -192,7 +192,7 @@ WBS & Project Management
 
 <br>
 
-<img src="https://img.shields.io/badge/Trello-WBS%20%26%20Project%20Management-0F766E?style=for-the-badge&logo=trello&logoColor=white"/>
+<img src="https://img.shields.io/badge/Lark-WBS%20%26%20Project%20Management-0288D1?style=for-the-badge&logo=lark&logoColor=white"/>
 
 </div>
 
