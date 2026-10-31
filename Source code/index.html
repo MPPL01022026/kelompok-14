@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Energy Twin - UMKM</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- =========================
+         SIDEBAR
+    ========================== -->
+    <aside class="sidebar">
+
+        <div class="brand">
+
+            <div class="brand-logo">
+                ⚡
+            </div>
+
+            <div class="brand-text">
+                <h2>EnergyTwin</h2>
+                <h5>Wadim 08</h5>
+            </div>
+
+        </div>
+
+
+        <nav class="sidebar-menu">
+
+            <a href="#dashboard" class="menu-item active">
+                <span class="menu-icon">▦</span>
+                <span>Dashboard</span>
+            </a>
+
+            <a href="#perangkat" class="menu-item">
+                <span class="menu-icon">◉</span>
+                <span>Perangkat</span>
+            </a>
+
+            <a href="#energi" class="menu-item">
+                <span class="menu-icon">◌</span>
+                <span>Monitoring Energi</span>
+            </a>
+
+            <a href="#riwayat" class="menu-item">
+                <span class="menu-icon">◷</span>
+                <span>Riwayat</span>
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <div class="system-status">
+
+                <span class="status-dot"></span>
+
+                <div>
+                    <strong>System Online</strong>
+                    <small>Smart Energy Meter</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+    <main class="main-content">
+
+
+        <!-- =========================
+             TOPBAR
+        ========================== -->
+        <header class="topbar">
+
+            <div class="topbar-left">
+
+                <span class="breadcrumb">
+                    Digital Twin / Dashboard
+                </span>
+
+                <h1>
+                    Smart Energy Twin
+                </h1>
+
+                <p>
+                    Monitoring penggunaan energi listrik UMKM
+                </p>
+
+            </div>
+
+
+            <div class="topbar-right">
+
+                <div class="live-badge">
+
+                    <span class="live-dot"></span>
+
+                    LIVE
+
+                </div>
+
+
+                <div class="date-info">
+
+                    <strong>
+                        Kamis, 1 Oktober 2026
+                    </strong>
+
+                    <span>
+                        16:26 WIB
+                    </span>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- =========================
+             DASHBOARD
+        ========================== -->
+        <section id="dashboard">
+
+
+            <!-- HERO -->
+            <div class="hero-card">
+
+                <div class="hero-content">
+
+                    <span class="hero-label">
+                        DIGITAL TWIN
+                    </span>
+
+                    <h2>
+                        Monitoring Energi UMKM
+                    </h2>
+
+                    <p>
+                        Pantau kondisi penggunaan listrik dan
+                        perangkat elektronik UMKM melalui
+                        Smart Energy Meter.
+                    </p>
+
+                </div>
+
+
+                <div class="hero-status">
+
+                    <div class="hero-status-icon">
+                        ✓
+                    </div>
+
+                    <div>
+                        <span>
+                            Status Sistem
+                        </span>
+
+                        <strong>
+                            NORMAL
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 ENERGY OVERVIEW
+            ========================== -->
+            <div class="section-header">
+
+                <div>
+
+                    <h2>
+                        Energy Overview
+                    </h2>
+
+                    <p>
+                        Kondisi penggunaan energi saat ini
+                    </p>
+
+                </div>
+
+                <span class="update-label">
+                    Data Smart Energy Meter
+                </span>
+
+            </div>
+
+
+            <div class="energy-cards">
+
+
+                <!-- TEGANGAN -->
+                <div class="energy-card">
+
+                    <div class="card-top">
+
+                        <div class="card-icon voltage-icon">
+                            V
+                        </div>
+
+                        <span class="card-status">
+                            NORMAL
+                        </span>
+
+                    </div>
+
+                    <span class="card-title">
+                        Tegangan
+                    </span>
+
+                    <div class="card-value">
+                        220.0
+                        <small>V</small>
+                    </div>
+
+                    <p>
+                        Tegangan listrik
+                    </p>
+
+                </div>
+
+
+                <!-- ARUS -->
+                <div class="energy-card">
+
+                    <div class="card-top">
+
+                        <div class="card-icon current-icon">
+                            A
+                        </div>
+
+                        <span class="card-status">
+                            NORMAL
+                        </span>
+
+                    </div>
+
+                    <span class="card-title">
+                        Arus
+                    </span>
+
+                    <div class="card-value">
+                        2.45
+                        <small>A</small>
+                    </div>
+
+                    <p>
+                        Arus listrik
+                    </p>
+
+                </div>
+
+
+                <!-- DAYA -->
+                <div class="energy-card">
+
+                    <div class="card-top">
+
+                        <div class="card-icon power-icon">
+                            W
+                        </div>
+
+                        <span class="card-status">
+                            AKTIF
+                        </span>
+
+                    </div>
+
+                    <span class="card-title">
+                        Daya
+                    </span>
+
+                    <div class="card-value">
+                        539
+                        <small>W</small>
+                    </div>
+
+                    <p>
+                        Daya listrik saat ini
+                    </p>
+
+                </div>
+
+
+                <!-- ENERGI -->
+                <div class="energy-card">
+
+                    <div class="card-top">
+
+                        <div class="card-icon energy-icon">
+                            kWh
+                        </div>
+
+                        <span class="card-status">
+                            HARI INI
+                        </span>
+
+                    </div>
+
+                    <span class="card-title">
+                        Konsumsi Energi
+                    </span>
+
+                    <div class="card-value">
+                        4.82
+                        <small>kWh</small>
+                    </div>
+
+                    <p>
+                        Total konsumsi hari ini
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- =========================
+                 CONTENT GRID
+            ========================== -->
+            <div class="content-grid">
+
+
+                <!-- MONITORING -->
+                <div class="panel monitoring-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <h3>
+                                Monitoring Konsumsi Energi
+                            </h3>
+
+                            <p>
+                                Grafik penggunaan energi
+                            </p>
+
+                        </div>
+
+                        <select>
+                            <option>Hari Ini</option>
+                            <option>Minggu Ini</option>
+                            <option>Bulan Ini</option>
+                        </select>
+
+                    </div>
+
+
+                    <!-- GRAPH PLACEHOLDER -->
+                    <div class="chart-area">
+
+                        <div class="chart-y">
+
+                            <span>8 kWh</span>
+                            <span>6 kWh</span>
+                            <span>4 kWh</span>
+                            <span>2 kWh</span>
+                            <span>0 kWh</span>
+
+                        </div>
+
+
+                        <div class="chart">
+
+                            <div class="chart-line">
+
+                                <div class="point p1"></div>
+                                <div class="point p2"></div>
+                                <div class="point p3"></div>
+                                <div class="point p4"></div>
+                                <div class="point p5"></div>
+                                <div class="point p6"></div>
+
+                            </div>
+
+                            <div class="chart-x">
+
+                                <span>08:00</span>
+                                <span>10:00</span>
+                                <span>12:00</span>
+                                <span>14:00</span>
+                                <span>16:00</span>
+                                <span>18:00</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BIAYA -->
+                <div class="panel cost-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <h3>
+                                Estimasi Biaya
+                            </h3>
+
+                            <p>
+                                Perkiraan penggunaan listrik
+                            </p>
+
+                        </div>
+
+                        <div class="cost-icon">
+                            Rp
+                        </div>
+
+                    </div>
+
+
+                    <div class="cost-content">
+
+                        <span>
+                            Estimasi hari ini
+                        </span>
+
+                        <h2>
+                            Rp 7.230
+                        </h2>
+
+                        <p>
+                            Berdasarkan konsumsi energi
+                        </p>
+
+                    </div>
+
+
+                    <div class="cost-detail">
+
+                        <div>
+
+                            <span>
+                                Konsumsi
+                            </span>
+
+                            <strong>
+                                4.82 kWh
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Tarif
+                            </span>
+
+                            <strong>
+                                Rp 1.500/kWh
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 PERANGKAT
+            ========================== -->
+            <section id="perangkat">
+
+                <div class="section-header device-header">
+
+                    <div>
+
+                        <h2>
+                            Device Monitoring
+                        </h2>
+
+                        <p>
+                            Perangkat listrik yang digunakan UMKM
+                        </p>
+
+                    </div>
+
+                    <span class="device-total">
+                        25 Perangkat
+                    </span>
+
+                </div>
+
+
+                <div class="device-grid">
+
+
+                    <!-- KULKAS -->
+                    <div class="device-card">
+
+                        <div class="device-card-top">
+
+                            <div class="device-icon">
+                                K
+                            </div>
+
+                            <span class="device-on">
+                                ON
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Kulkas
+                        </h3>
+
+                        <p>
+                            Perangkat pendingin
+                        </p>
+
+                        <div class="device-count">
+
+                            <strong>
+                                1
+                            </strong>
+
+                            <span>
+                                Unit
+                            </span>
+
+                        </div>
+
+                        <div class="device-power">
+                            Daya terpantau
+                            <strong>150 W</strong>
+                        </div>
+
+                    </div>
+
+
+                    <!-- TV -->
+                    <div class="device-card">
+
+                        <div class="device-card-top">
+
+                            <div class="device-icon">
+                                TV
+                            </div>
+
+                            <span class="device-on">
+                                ON
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            TV
+                        </h3>
+
+                        <p>
+                            Perangkat elektronik
+                        </p>
+
+                        <div class="device-count">
+
+                            <strong>
+                                1
+                            </strong>
+
+                            <span>
+                                Unit
+                            </span>
+
+                        </div>
+
+                        <div class="device-power">
+                            Daya terpantau
+                            <strong>80 W</strong>
+                        </div>
+
+                    </div>
+
+
+                    <!-- DISPENSER -->
+                    <div class="device-card">
+
+                        <div class="device-card-top">
+
+                            <div class="device-icon">
+                                D
+                            </div>
+
+                            <span class="device-on">
+                                ON
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Dispenser
+                        </h3>
+
+                        <p>
+                            Perangkat air minum
+                        </p>
+
+                        <div class="device-count">
+
+                            <strong>
+                                1
+                            </strong>
+
+                            <span>
+                                Unit
+                            </span>
+
+                        </div>
+
+                        <div class="device-power">
+                            Daya terpantau
+                            <strong>350 W</strong>
+                        </div>
+
+                    </div>
+
+
+                    <!-- KIPAS -->
+                    <div class="device-card">
+
+                        <div class="device-card-top">
+
+                            <div class="device-icon">
+                                K
+                            </div>
+
+                            <span class="device-on">
+                                ON
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Kipas
+                        </h3>
+
+                        <p>
+                            Perangkat sirkulasi udara
+                        </p>
+
+                        <div class="device-count">
+
+                            <strong>
+                                6
+                            </strong>
+
+                            <span>
+                                Unit
+                            </span>
+
+                        </div>
+
+                        <div class="device-power">
+                            Daya terpantau
+                            <strong>360 W</strong>
+                        </div>
+
+                    </div>
+
+
+                    <!-- FREEZER -->
+                    <div class="device-card">
+
+                        <div class="device-card-top">
+
+                            <div class="device-icon">
+                                F
+                            </div>
+
+                            <span class="device-on">
+                                ON
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Freezer
+                        </h3>
+
+                        <p>
+                            Perangkat pendingin
+                        </p>
+
+                        <div class="device-count">
+
+                            <strong>
+                                1
+                            </strong>
+
+                            <span>
+                                Unit
+                            </span>
+
+                        </div>
+
+                        <div class="device-power">
+                            Daya terpantau
+                            <strong>300 W</strong>
+                        </div>
+
+                    </div>
+
+
+                    <!-- LAMPU -->
+                    <div class="device-card">
+
+                        <div class="device-card-top">
+
+                            <div class="device-icon">
+                                L
+                            </div>
+
+                            <span class="device-on">
+                                ON
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Lampu
+                        </h3>
+
+                        <p>
+                            Perangkat penerangan
+                        </p>
+
+                        <div class="device-count">
+
+                            <strong>
+                                15
+                            </strong>
+
+                            <span>
+                                Unit
+                            </span>
+
+                        </div>
+
+                        <div class="device-power">
+                            Daya terpantau
+                            <strong>150 W</strong>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 RINGKASAN PERANGKAT
+            ========================== -->
+            <section id="energi">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <h2>
+                            Ringkasan Penggunaan
+                        </h2>
+
+                        <p>
+                            Informasi jumlah perangkat berdasarkan jenis
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="summary-table">
+
+                    <div class="table-header">
+
+                        <span>
+                            Perangkat
+                        </span>
+
+                        <span>
+                            Jumlah
+                        </span>
+
+                        <span>
+                            Status
+                        </span>
+
+                        <span>
+                            Perkiraan Daya
+                        </span>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <span>Kulkas</span>
+
+                        <strong>1 Unit</strong>
+
+                        <span class="table-status">
+                            Aktif
+                        </span>
+
+                        <strong>150 W</strong>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <span>TV</span>
+
+                        <strong>1 Unit</strong>
+
+                        <span class="table-status">
+                            Aktif
+                        </span>
+
+                        <strong>80 W</strong>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <span>Dispenser</span>
+
+                        <strong>1 Unit</strong>
+
+                        <span class="table-status">
+                            Aktif
+                        </span>
+
+                        <strong>350 W</strong>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <span>Kipas</span>
+
+                        <strong>6 Unit</strong>
+
+                        <span class="table-status">
+                            Aktif
+                        </span>
+
+                        <strong>360 W</strong>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <span>Freezer</span>
+
+                        <strong>1 Unit</strong>
+
+                        <span class="table-status">
+                            Aktif
+                        </span>
+
+                        <strong>300 W</strong>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <span>Lampu</span>
+
+                        <strong>15 Unit</strong>
+
+                        <span class="table-status">
+                            Aktif
+                        </span>
+
+                        <strong>150 W</strong>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 AKTIVITAS
+            ========================== -->
+            <section id="riwayat">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <h2>
+                            System Activity
+                        </h2>
+
+                        <p>
+                            Informasi aktivitas sistem
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="activity-panel">
+
+
+                    <div class="activity-item">
+
+                        <span class="activity-dot"></span>
+
+                        <div>
+
+                            <strong>
+                                Smart Energy Meter terhubung
+                            </strong>
+
+                            <span>
+                                Sistem monitoring aktif
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="activity-item">
+
+                        <span class="activity-dot"></span>
+
+                        <div>
+
+                            <strong>
+                                Perangkat UMKM terdaftar
+                            </strong>
+
+                            <span>
+                                25 perangkat teridentifikasi
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="activity-item">
+
+                        <span class="activity-dot"></span>
+
+                        <div>
+
+                            <strong>
+                                Monitoring energi siap digunakan
+                            </strong>
+
+                            <span>
+                                Digital Twin System
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+
+        </section>
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+        <footer>
+
+            <span>
+                Smart Energy Twin © 2026
+            </span>
+
+            <span>
+                Digital Twin • Smart Energy Meter • UMKM
+            </span>
+
+        </footer>
+
+
+    </main>
+
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const menuItems = document.querySelectorAll(".sidebar-menu .menu-item");
+
+    const sections = [
+        document.getElementById("dashboard"),
+        document.getElementById("perangkat"),
+        document.getElementById("energi"),
+        document.getElementById("riwayat")
+    ];
+
+    // Mengubah menu aktif ketika diklik
+    menuItems.forEach(function(menu) {
+
+        menu.addEventListener("click", function() {
+
+            menuItems.forEach(function(item) {
+                item.classList.remove("active");
+            });
+
+            this.classList.add("active");
+
+        });
+
+    });
+
+    // Mengubah menu aktif ketika halaman digulir
+    window.addEventListener("scroll", function() {
+
+        let currentSection = "";
+
+        sections.forEach(function(section) {
+
+            if (section) {
+                const sectionTop = section.offsetTop;
+                const scrollPosition = window.scrollY + 180;
+
+                if (scrollPosition >= sectionTop) {
+                    currentSection = section.getAttribute("id");
+                }
+            }
+
+        });
+
+        menuItems.forEach(function(menu) {
+
+            menu.classList.remove("active");
+
+            if (menu.getAttribute("href") === "#" + currentSection) {
+                menu.classList.add("active");
+            }
+
+        });
+
+    });
+
+});
+</script>
+</body>
+</html>
