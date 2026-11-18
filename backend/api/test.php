@@ -1,0 +1,3 @@
+<?php
+
+echo "API FOLDER BERHASIL DIAKSES!";
